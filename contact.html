@@ -1,0 +1,198 @@
+﻿<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WNB Designs - Contactos</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+  <div id="container"></div>
+
+
+  <header class="slide-text" data-slide-text>
+    <div class="slide-number" data-slide-number>
+      <span>01</span>
+    </div>
+    <div class="slide-title" data-slide-title>
+      <h1>Awakening Abyss</h1>
+    </div>
+    <div class="slide-description" data-slide-description>
+      <p>Eldritch Emergence</p>
+    </div>
+  </header>
+
+  <div class="slide-paragraph" data-slide-paragraph>
+    <div class="slide-paragraph-line" data-paragraph-line-1>
+      <span>Archived VHS documentary footage captures the moment</span>
+    </div>
+    <div class="slide-paragraph-line" data-paragraph-line-2>
+      <span>an ancient cosmic entity ruptures frozen silence.</span>
+    </div>
+  </div>
+</section>
+
+  <header class="header-area">
+    <div class="topbar">
+      <a href="index.html" class="logo-container">
+        <img src="logo.png" alt="WNB Designs" style="width: 80px;height:auto;">
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Início</a>
+        <a href="portfolio.html">Portfólio</a>
+        <a href="services.html">Serviços</a>
+        <a href="contact.html" class="active">Contactos</a>
+      </nav>
+      <div class="cta-row">
+        <a class="btn btn-ghost" href="services.html">Ver serviços</a>
+        <a class="btn btn-primary" href="contact.html">Contratar</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="page-shell contact-page">
+    <div class="page-header">
+      <p class="page-subtitle">Contactos</p>
+      <h1 class="page-title">Fala comigo</h1>
+      <p class="page-lead">Respostas rápidas, apoio técnico e propostas à medida. Envia um briefing e eu respondo em menos de 24h.</p>
+    </div>
+
+    <section class="section-card contact-grid">
+      <!-- FORMULA?RIO DE CONTACTO -->
+      <form id="contactForm" action="contact.php" method="POST" novalidate class="contact-form" data-reveal="fade">
+        <!-- Honeypot anti-spam -->
+        <label class="hp" for="website">Website</label>
+        <input class="hp" type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+
+        <div class="form-row">
+          <div class="form-field">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" placeholder="O teu nome" required>
+          </div>
+
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="email@exemplo.com" required>
+          </div>
+        </div>
+
+        <div class="form-field">
+          <label for="message">Mensagem</label>
+          <textarea id="message" name="message" placeholder="Conta-me sobre o teu projeto" required></textarea>
+        </div>
+
+        <button type="submit" id="sendBtn" class="btn btn-primary">Enviar mensagem</button>
+        <p class="form-note">Normalmente respondo em menos de 24h.</p>
+        <p id="formStatus" aria-live="polite" class="form-status" hidden></p>
+      </form>
+
+      <!-- CONTACTOS EMPRESA -->
+      <aside class="contact-side">
+        <h3>Contactos</h3>
+        <p class="small-intro">Fale comigo por email, telefone ou redes sociais.</p>
+
+        <div class="contact-highlights">
+          <div class="contact-highlight">
+            <span class="highlight-title">Resposta</span>
+            <span class="highlight-value">24h</span>
+          </div>
+          <div class="contact-highlight">
+            <span class="highlight-title">Local</span>
+            <span class="highlight-value">Porto</span>
+          </div>
+          <div class="contact-highlight">
+            <span class="highlight-title">Disponibilidade</span>
+            <span class="highlight-value">Remoto</span>
+          </div>
+        </div>
+
+        <ul>
+          <li>
+            <div class="icon-bubble">
+              <img src="icons/instagram.svg" alt="Instagram">
+            </div>
+            <p><strong>Instagram</strong> <a href="https://www.instagram.com/wnb_designs" target="_blank" class="footer-link">@wnb_designs</a></p>
+          </li>
+
+          <li class="contact-inline-phones">
+            <div class="icon-bubble">
+              <img src="icons/phone.svg" alt="Telefone">
+            </div>
+            <div>
+              <p><strong>Telefone</strong> <a href="tel:+351918011157" class="footer-link">+351 918 011 157</a></p>
+            </div>
+          </li>
+
+          <li>
+            <div class="icon-bubble">
+              <img src="icons/mail.svg" alt="Email">
+            </div>
+            <div>
+              <p><strong>Email</strong> <a href="mailto:wnbdesigns.pt@gmail.com" class="footer-link">wnbdesigns2025@gmail.com</a></p>
+            </div>
+          </li>
+        </ul>
+      </aside>
+    </section>
+
+    <div class="map-wrapper">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2901.786402621677!2d-8.587726174073556!3d41.167994821328605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd246464f1e18cbd%3A0xf6d4304edb480421!2s4350-199%20Porto!5e1!3m2!1sen!2spt!4v1763051810766!5m2!1sen!2spt"
+        frameborder="0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        class="contact-map"
+        aria-label="LocalizaçAÅ“o Acessint no mapa">
+      </iframe>
+    </div>
+  </main>
+
+<footer>
+
+  <div class="footer-social">
+    <a href="https://www.instagram.com/wnb_designs" target="_blank" class="footer-link">Instagram</a>
+    <a href="https://www.linkedin.com/in/wilson-oliveira-61a031223" target="_blank" class="footer-link">LinkedIn</a>
+    <a href="https://www.behance.net/wilsonoliveira" target="_blank" class="footer-link">Behance</a>
+  </div>
+
+  <div class="footer-contact">
+    <p>Email: <a href="mailto:wnbdesigns.pt@gmail.com">wnbdesigns2025@gmail.com</a></p>
+    <p>Telefone: 918 011 157</p>
+  </div>
+
+  <div class="copyright">Ac 2025 WNB Designs - Wilson Miguel Oliveira</div>
+</footer>
+<script>
+  // esconder o texto "Portfólio" ao fazer scroll
+  const logoText = document.getElementById("logo-text");
+  const scrollThreshold = 40; // px a partir de que começa a desaparecer
+
+  if (logoText) {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > scrollThreshold) {
+        logoText.classList.add("hide-on-scroll");
+      } else {
+        logoText.classList.remove("hide-on-scroll");
+      }
+    });
+  }
+  feather.replace();
+</script>
+
+  <script src="site.js"></script>
+  <script type="module" src="metaballs.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
